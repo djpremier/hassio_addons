@@ -1,10 +1,10 @@
 {
   "name": "Mopidy",
-  "version": "dj000001",
+  "version": "latest",
   "slug": "mopidy",
   "panel_icon": "mdi:music-circle",
   "description": "Mopidy is an extensible music server",
-  "url": "https://github.com/djpremier/ha-addon-mopidy",
+  "url": "https://github.com/djpremier/addon-mopidy",
   "webui": "http://[HOST]:[PORT:80]/iris/",
   "ingress": true,
   "ingress_port": 1337,
@@ -32,6 +32,7 @@
   "map": [
     "config",
     "share:rw",
+    "media:rw",
     "ssl"
   ],
   "options": {
